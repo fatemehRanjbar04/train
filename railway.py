@@ -77,10 +77,10 @@ train = Train(last_visited_city="Tehran", weight_capacity=1000, is_on_trip=False
 # trip = Trip(origin_city="Tehran", destination_city="Mashhad", train=train)
 
 # # ایجاد مسافران
-# passenger1 = Passenger(fullname="Ali", load_weight=300) 
-# passenger2 = Passenger(fullname="Sara", load_weight=200) 
-# passenger3 = Passenger(fullname="Mohammad", load_weight=600)  
-# passenger4 = Passenger(fullname="Nadia", load_weight=150) 
+passenger1 = Passenger(fullname="Ali", load_weight=300) 
+passenger2 = Passenger(fullname="Sara", load_weight=200) 
+passenger3 = Passenger(fullname="Mohammad", load_weight=600)  
+passenger4 = Passenger(fullname="Nadia", load_weight=150) 
 
 # passenger1.attend_trip(trip)  
 # passenger2.attend_trip(trip)  
